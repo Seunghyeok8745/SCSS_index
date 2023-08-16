@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 .home {
   background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60");
   height: 100vh;
@@ -17,6 +18,7 @@
 .home_content h2 {
   font-size: 64px;
   color: white;
+  font-family: "Abril Fatface", cursive;
 }
 .home_content h3 {
   font-size: 24px;
@@ -31,4 +33,10 @@
   top: 0;
   background-color: rgba(37, 39, 71, 0.2);
   z-index: -1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=main.css.map */
