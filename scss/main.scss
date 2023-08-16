@@ -24,27 +24,27 @@ header {
 }
 
 /***************************/
-#menu {
+.menu {
   float: right;
   width: 70%;
   height: 100%;
-  margin: none;
+  margin-top: 10%;
 }
 
-#menu ul {
+.menu ul {
   text-align: center;
   float: right;
-  margin: none;
+  margin: 10px;
 }
 
-#menu li {
+.menu li {
   display: inline-block;
   padding: none;
   margin: none;
 }
 
-#menu li a,
-#menu li span {
+.menu li a,
+.menu li span {
   display: inline-block;
   padding: 0em 1.5em;
   text-decoration: none;
@@ -67,6 +67,7 @@ header {
 footer {
   padding: 70px 0;
   opacity: 80%;
+  justify-content: center;
 }
 .footer-area {
   margin-top: 3%;
@@ -83,3 +84,5 @@ span {
 hr {
   border: 0.5px solid black;
 }
+@import "./home";
+@import "./resets";

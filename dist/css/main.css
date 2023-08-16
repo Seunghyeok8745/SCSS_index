@@ -34,7 +34,7 @@ header {
 .menu ul {
   text-align: center;
   float: right;
-  margin: none;
+  margin-top: 5px;
 }
 
 .menu li {
@@ -46,7 +46,7 @@ header {
 .menu li a,
 .menu li span {
   display: inline-block;
-  padding: 0em 1.5em;
+  padding: 0.75em 1.5em;
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
@@ -63,23 +63,70 @@ header {
   color: white;
   text-decoration: none;
 }
+
 /* Footer */
 footer {
-  padding: 70px 0;
+  padding: 40px 0;
   opacity: 80%;
 }
 .footer-area {
   margin-top: 3%;
+  padding: 0.4rem 0.5rem;
 }
 
 span {
   color: black;
-  padding-bottom: 20%;
+  padding-bottom: 5%;
   float: center;
-  padding-left: 40%;
+  padding-left: 35%;
   padding-top: 10%;
   padding-right: 2%;
 }
 hr {
   border: 0.5px solid black;
 }
+#icon {
+  padding: 0 1rem;
+}
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+.home {
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60");
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_content {
+  text-align: center;
+  padding: 30px;
+}
+.home_content h2 {
+  font-size: 64px;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+}
+.home_content h3 {
+  font-size: 24px;
+  color: white;
+}
+
+.home::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(37, 39, 71, 0.2);
+  z-index: -1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /*# sourceMappingURL=main.css.map */
