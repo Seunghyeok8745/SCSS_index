@@ -11,13 +11,13 @@
   align-items: center;
 }
 .home_content {
-  width: 350px;
+  width: 500px;
   position: absolute;
   top: 15%;
   left: 10%;
 }
 .home_content h2 {
-  font-size: 80px;
+  font-size: 100px;
   color: white;
   font-family: "Abril Fatface", cursive;
 }
@@ -32,7 +32,7 @@
   width: 100%;
   height: 100%;
   top: 0;
-  background-color: rgba(37, 39, 71, 0.2);
+  background-color: rgba(37, 39, 71, 0.1);
   z-index: -1;
 }
 
