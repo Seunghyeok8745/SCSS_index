@@ -1,0 +1,85 @@
+/* Header */
+header {
+  overflow: hidden;
+}
+
+.top-header {
+  text-align: center;
+  height: 60px;
+}
+
+/* Styling Logo */
+.logo {
+  float: left;
+  padding: none;
+  margin: none;
+  height: 60px;
+  width: 30%;
+}
+
+.logo img {
+  width: 60%;
+  float: left;
+  padding: 10px 0px;
+}
+
+/***************************/
+#menu {
+  float: right;
+  width: 70%;
+  height: 100%;
+  margin: none;
+}
+
+#menu ul {
+  text-align: center;
+  float: right;
+  margin: none;
+}
+
+#menu li {
+  display: inline-block;
+  padding: none;
+  margin: none;
+}
+
+#menu li a,
+#menu li span {
+  display: inline-block;
+  padding: 0em 1.5em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+.menu li a {
+  color: black;
+}
+
+.menu li:hover a,
+.menu li span {
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+/* Footer */
+footer {
+  padding: 70px 0;
+  opacity: 80%;
+}
+.footer-area {
+  margin-top: 3%;
+}
+
+span {
+  color: black;
+  padding-bottom: 20%;
+  float: center;
+  padding-left: 40%;
+  padding-top: 10%;
+  padding-right: 2%;
+}
+hr {
+  border: 0.5px solid black;
+}
